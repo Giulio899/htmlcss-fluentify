@@ -9,6 +9,11 @@ body {
 }
 
 /* proprietà comuni */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 .float {
   float: left;
 }
@@ -28,6 +33,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: #808080;
+  font-size: 18px;
+}
+
 /* Inizio header */
 header {
   background-image: url('../img/background-header.png');
@@ -37,18 +47,11 @@ header {
   background-color: #0c325a;
 }
 
-.header-container {
-  width: 80%;
-  /* proprietà da rimuovere */
-  /* background-color: pink; */
-  /* /proprietà da rimuovere */
-  margin: auto;
-}
-
 /* Inizio header-top */
 .header-top {
   width: 100%;
 }
+
 
 /* Inizio header top left */
 .header-top-logo {
@@ -165,23 +168,67 @@ header {
   background-color: rgb(255, 255, 255);
   color: #0c325a;
 }
+/* /header bottom */
+/* /header */
+
+
 
 /* Inizio main */
 main {
-  width: 80%;
+  width: 100%;
   /* proprietà da rimuovere */
-  height: 600px;
-  background-color: orange;
+  /* background-color: orange; */
   /* /proprietà da rimuovere */
   margin: auto;
+}
+
+/* Inizio fascia 1 */
+main #fascia1 {
+  height: 150px;
+  background-color: #d3d3d3;
+  position: relative;
+  text-align: center;
+}
+
+main #fascia1 .testo-centrato {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main #fascia1 p {
+  margin-top: 15px;
+}
+/* /fascia 1 */
+
+/* Inizio fascia 2 */
+main #fascia2 {
+  /* background-color: green; */
+  text-align: center;
+}
+
+main #fascia2 div {
+  width: calc(100% / 3);
+  /* background-color: violet;
+  border: 1px solid white; */
+  padding: 35px;
+}
+
+main #fascia2 div img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+main #fascia2 h3 {
+  color: #7cbb02;
+  font-size: 1.5em;
+}
+
+main hr {
+  border: 1px solid #808080;
+  background-color: #808080;
+  width: 80px;
+  margin: 25px auto;
 }
 /* /main */
-
-footer {
-  width: 80%;
-  /* proprietà da rimuovere */
-  height: 200px;
-  background-color: violet;
-  /* /proprietà da rimuovere */
-  margin: auto;
-}
