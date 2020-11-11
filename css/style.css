@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* proprietà comuni */
+.float {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-container {
+  width: 80%;
+  /* proprietà da rimuovere */
+  background-color: pink;
+  /* /proprietà da rimuovere */
+  margin: auto;
+}
+
+/* Inizio header-top */
+.header-top {
+  width: 100%;
+}
+
+.header-top-logo {
+  width: 20%;
+  height: 80px;
+  /* proprietà da rimuovere */
+  background-color: violet;
+  /* /proprietà da rimuovere */
+}
+
+.header-top-nav {
+  width: 50%;
+  height: 80px;
+  /* proprietà da rimuovere */
+  background-color: lightgrey;
+  /* proprietà da rimuovere */
+
+}
+
+.header-top-right {
+  width: 30%;
+  height: 80px;
+  /* proprietà da rimuovere */
+  background-color: violet;
+  /* proprietà da rimuovere */
+}
+
+/* Inizio header bottom */
+.header-bottom {
+  width: 100%;
+  /* proprietà da rimuovere */
+  height: 470px;
+  background-color: grey;
+  /* /proprietà da rimuovere */
+}
+
+/* Inizio main */
+main {
+  width: 80%;
+  /* proprietà da rimuovere */
+  height: 600px;
+  background-color: orange;
+  /* /proprietà da rimuovere */
+  margin: auto;
+}
+/* /main */
+
+footer {
+  width: 80%;
+  /* proprietà da rimuovere */
+  height: 200px;
+  background-color: violet;
+  /* /proprietà da rimuovere */
+  margin: auto;
+}
